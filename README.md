@@ -13,3 +13,5 @@
 [zZPiglet](https://github.com/zZPiglet/Task.git)
 
 [dompling](https://github.com/dompling/Script.git)
+
+[lowking](https://github.com/lowking/Scripts.git)
