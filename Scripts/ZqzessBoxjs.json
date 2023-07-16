@@ -1,0 +1,54 @@
+{
+  "id": "zqzess.app.sub",
+  "name": "zqzess 应用订阅",
+  "author": "@zqzess",
+  "icon": "https://avatars.githubusercontent.com/u/54464797?s=60&v=4",
+  "repo": "https://github.com/zqzess/rule_for_quantumultX",
+  "apps": [
+    {
+      "id": "aDriveCheckIn",
+      "name": "阿里云盘自动签到",
+      "keys": [
+        "@ADriveCheckIn.refresh_token_body",
+        "@ADriveCheckIn.headers",
+        "@ADriveCheckIn.refresh_token",
+        "@ADriveCheckIn.isAutoGetReword"
+      ],
+      "settings": [
+        {
+          "id": "@ADriveCheckIn.refresh_token",
+          "name": "refresh_token",
+          "val": null,
+          "type": "text",
+          "autoGrow": false,
+          "rows": 1,
+          "desc": "阿里云盘refresh_token"
+        },
+        {
+          "id": "@ADriveCheckIn.isAutoGetReword",
+          "name": "开启自动领取奖励",
+          "val": true,
+          "type": "boolean",
+          "desc": "默认开启"
+        }
+      ],
+      "author": "@zqzess",
+      "repo": "https://github.com/zqzess/rule_for_quantumultX",
+      "icons": [
+        "https://raw.githubusercontent.com/Softlyx/Fileball/main/YUAN/ALiYun.png",
+        "https://raw.githubusercontent.com/Softlyx/Fileball/main/YUAN/ALiYun.png"
+      ],
+      "onInstall": {
+        "title": "安装确认",
+        "message": "本订阅包含重写资源, 是否需要自动安装?",
+        "install": {
+          "Surge": "",
+          "QuanX": "",
+          "Loon": "",
+          "Shadowrocket": "",
+          "Stash": ""
+        }
+      }
+    }
+  ]
+}
