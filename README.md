@@ -15,3 +15,5 @@
 [dompling](https://github.com/dompling/Script.git)
 
 [lowking](https://github.com/lowking/Scripts.git)
+
+[chxm1023](https://github.com/chxm1023/Rewrite.git)
