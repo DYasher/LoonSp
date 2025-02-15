@@ -1,9 +1,9 @@
-URL-REGEX,"https://gateway.kugou.com/ads.gateway/.*"
-URL-REGEX,"https://gateway3.kugou.com/ads.gateway/.*"
-URL-REGEX,"https://gatewayretry.kugou.com/ads.gateway/.*"
-URL-REGEX,"https://gateway.kugou.com/youth/api/user/v1/init.*"
-URL-REGEX,"^http:\/\/mobilelog\.kugou\.com\/adtrackconfig\.json$"
-URL-REGEX,"https://tmeadcomm.y.qq.com/maproxy/getPbCompressAd"
+URL-REGEX,https://gateway.kugou.com/ads.gateway/.*
+URL-REGEX,https://gateway3.kugou.com/ads.gateway/.*
+URL-REGEX,https://gatewayretry.kugou.com/ads.gateway/.*
+URL-REGEX,https://gateway.kugou.com/youth/api/user/v1/init.*
+URL-REGEX,^http:\/\/mobilelog\.kugou\.com\/adtrackconfig\.json$
+URL-REGEX,https://tmeadcomm.y.qq.com/maproxy/getPbCompressAd
 DOMAIN-SUFFIX,adservice.kugou.com
 DOMAIN-SUFFIX,install2.kugou.com
 DOMAIN-SUFFIX,adstats.tencentmusic.com
