@@ -1,0 +1,63 @@
+{
+    "id": "SliverkissCheckin.sub",
+    "name": "Sliverkiss签到脚本订阅",
+    "author": "@Sliverkiss",
+    "icon": "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/sakura.png",
+    "repo": "",
+    "apps": [
+      {
+            "id": "sliverkiss_xxyx",
+            "name": "晓晓优选",
+            "author": "@Sliverkiss",
+            "repo": "",
+            "icons": [
+                "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/xxyx.png",
+                "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/xxyx.png"
+            ],
+            "keys": [
+                "xxyx_data"
+            ],
+            "settings": [
+                {
+                    "id": "xxyx_data",
+                    "name": "会员Cookie数据",
+                    "val": "",
+                    "type": "textarea",
+                    "autoGrow": true,
+                    "desc": "会员Cookie数据"
+                }
+            ]
+        },
+      {
+            "id": "sliverkiss_xcbwc",
+            "name": "小蚕霸王餐",
+            "author": "@Sliverkiss",
+            "repo": "",
+            "icons": [
+                "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/xcbwc.png",
+                "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/xcbwc.png"
+            ],
+            "keys": [
+                "xcbwc_wallet",
+                "xcbwc_data"
+            ],
+            "settings": [
+                {
+                    "id": "xcbwc_wallet",
+                    "name": "开启自动提现",
+                    "val": false,
+                    "type": "boolean",
+                    "desc": "默认关闭"
+                },
+                {
+                    "id": "xcbwc_data",
+                    "name": "会员Cookie数据",
+                    "val": "",
+                    "type": "textarea",
+                    "autoGrow": true,
+                    "desc": "会员Cookie数据"
+                }
+            ]
+        }
+    ]
+}
